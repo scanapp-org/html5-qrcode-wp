@@ -1,0 +1,31 @@
+{
+  "name": "html5-qrcode-wp",
+  "version": "0.0.1",
+  "description": "Free online barcode and QR code scanning plugin bsaed on mebjas/html5-qrcode project",
+  "main": "index.js",
+  "scripts": {
+    "copy_script": "cp node_modules/html5-qrcode/html5-qrcode.min.js scripts/html5-qrcode.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanapp-org/html5-qrcode-wp.git"
+  },
+  "keywords": [
+    "html5",
+    "wordpress",
+    "qrcode",
+    "barcode",
+    "qr",
+    "code",
+    "scanner"
+  ],
+  "author": "Minhaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scanapp-org/html5-qrcode-wp/issues"
+  },
+  "homepage": "https://github.com/scanapp-org/html5-qrcode-wp#readme",
+  "dependencies": {
+    "html5-qrcode": "^2.1.3"
+  }
+}
